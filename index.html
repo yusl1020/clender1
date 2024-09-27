@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Calendar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .calendar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .day {
+            flex: 1;
+            min-width: 200px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .date {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .category {
+            margin-bottom: 5px;
+        }
+        .category-title {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="calendar">
+        <div class="day">
+            <div class="date">Monday, May 1, 2023</div>
+            <div class="category">
+                <span class="category-title">My Life:</span> Family dinner
+            </div>
+            <div class="category">
+                <span class="category-title">My Learn:</span> Started Python course
+            </div>
+            <div class="category">
+                <span class="category-title">My Sport:</span> 30-min jog
+            </div>
+            <div class="category">
+                <span class="category-title">My Work:</span> Project meeting
+            </div>
+            <div class="category">
+                <span class="category-title">My Think:</span> Brainstormed new ideas
+            </div>
+        </div>
+        <div class="day">
+            <div class="date">Tuesday, May 2, 2023</div>
+            <div class="category">
+                <span class="category-title">My Life:</span> Grocery shopping
+            </div>
+            <div class="category">
+                <span class="category-title">My Learn:</span> Read tech article
+            </div>
+            <div class="category">
+                <span class="category-title">My Sport:</span> Yoga class
+            </div>
+            <div class="category">
+                <span class="category-title">My Work:</span> Client presentation
+            </div>
+            <div class="category">
+                <span class="category-title">My Think:</span> Meditation session
+            </div>
+        </div>
+        <!-- Repeat for other days of the week -->
+    </div>
+</body>
+</html>
